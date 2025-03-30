@@ -1,0 +1,50 @@
+# 의존성 디렉토리
+/node_modules
+/.pnp
+.pnp.js
+
+# 빌드 결과물
+/dist
+/build
+/out
+/.next
+/.nuxt
+
+# 로그 파일
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 변수 파일 (중요한 API 키 등이 포함될 수 있음)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 및 에디터 설정
+/.idea
+/.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 테스트 관련
+/coverage
+
+# 캐시 디렉토리
+.npm
+.eslintcache
+.cache
+.parcel-cache
+
+# 프로젝트 특화 설정
+# YouTube API 인증 정보 파일
+youtube-credentials.json
+google-credentials.json
+
+# 업로드 파일 디렉토리 (필요한 경우)
+/uploads
